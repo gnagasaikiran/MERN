@@ -1,0 +1,19 @@
+{
+  "name": "mern-learning",
+  "version": "1.0.0",
+  "description": "mern-learning",
+  "license": "ISC",
+  "author": "gnagasaikiran",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4"
+  }
+}
